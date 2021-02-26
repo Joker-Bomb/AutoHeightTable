@@ -1,0 +1,176 @@
+<!-- <div class="container">
+  <div class="container-top">
+    <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of basicTable.data">
+          <td>{{ data.name }}</td>
+          <td>{{ data.age }}</td>
+          <td>{{ data.address }}</td>
+          <td>
+            <a>Action 一 {{ data.name }}</a>
+            <nz-divider nzType="vertical"></nz-divider>
+            <a>Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+  <div class="container-bottom">
+    <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of basicTable.data">
+          <td>{{ data.name }}</td>
+          <td>{{ data.age }}</td>
+          <td>{{ data.address }}</td>
+          <td>
+            <a>Action 一 {{ data.name }}</a>
+            <nz-divider nzType="vertical"></nz-divider>
+            <a>Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+</div> -->
+<div style="height: 100%;">
+  <div style="background-color: red; width: 15%;height: 100%;float: left;">
+    <div style="background-color: yellow; height: 33.33%;">
+      <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55" >
+        <thead>
+          <tr>
+            <th [nzWidth]="100">Name</th>
+            <th [nzWidth]="100">Age</th>
+            <th [nzWidth]="100">Address</th>
+            <th [nzWidth]="100">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>
+              <a>Action 一 {{ data.name }}</a>
+              <nz-divider nzType="vertical"></nz-divider>
+              <a>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+    <div style="background-color: salmon; height: 33.33%;">
+      <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55" >
+        <thead>
+          <tr>
+            <th [nzWidth]="100">Name</th>
+            <th [nzWidth]="100">Age</th>
+            <th [nzWidth]="100">Address</th>
+            <th [nzWidth]="100">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>
+              <a>Action 一 {{ data.name }}</a>
+              <nz-divider nzType="vertical"></nz-divider>
+              <a>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+    <div style="background-color: slateblue; height: 33.33%;">
+      <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55" >
+        <thead>
+          <tr>
+            <th [nzWidth]="100">Name</th>
+            <th [nzWidth]="100">Age</th>
+            <th [nzWidth]="100">Address</th>
+            <th [nzWidth]="100">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>
+              <a>Action 一 {{ data.name }}</a>
+              <nz-divider nzType="vertical"></nz-divider>
+              <a>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+  </div>
+  <div style="background-color: green;width: 85%;height: 100%;float:right;">
+    <div style="background-color: blue;height: 10%;">
+      <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55" >
+        <thead>
+          <tr>
+            <th [nzWidth]="100">Name</th>
+            <th [nzWidth]="100">Age</th>
+            <th [nzWidth]="100">Address</th>
+            <th [nzWidth]="100">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>
+              <a>Action 一 {{ data.name }}</a>
+              <nz-divider nzType="vertical"></nz-divider>
+              <a>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+    <div style="background-color: pink;height: 90%;">
+      <nz-table #basicTable [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false" [nsAutoHeightTable]="55" >
+        <thead>
+          <tr>
+            <th [nzWidth]="100">Name</th>
+            <th [nzWidth]="100">Age</th>
+            <th [nzWidth]="100">Address</th>
+            <th [nzWidth]="100">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of basicTable.data">
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>
+              <a>Action 一 {{ data.name }}</a>
+              <nz-divider nzType="vertical"></nz-divider>
+              <a>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </div>
+  </div>
+</div>
